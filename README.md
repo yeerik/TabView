@@ -1,1 +1,3 @@
 # TabView
+使用时关注TabSelectView与TabFrgmAdapter，将TabSelectView、TabFrgmAdapter、ViewPager三者关联起来使用
+UI满足不了的情况，参照TabSelectView创建BindPagerAdapterView子类即可。
