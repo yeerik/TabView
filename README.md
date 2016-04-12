@@ -9,6 +9,9 @@ UI满足不了的情况，参照TabSelectView创建BindPagerAdapterView子类即
 公司工程代码的使用不方便贴，所以写了一个比较粗糙的使用类，及很丑的效果图，忽略这种细节就好。
 
 
+![](https://raw.githubusercontent.com/yeerik/TabView/master/sample/img/20150816174018172.jpg)
+
+
 
 
 package com.example.tabtest;
