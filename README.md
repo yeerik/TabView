@@ -1,4 +1,7 @@
 # TabView
+用于搭建UI框架，比如常见的底下四个tab，上面是各模块内容的页面。这里主要把tab块抽出来做成了单独的控件，而且tab块不是一成不变的，，可根据美工设计重新调整。
+
+
 使用时关注TabSelectView与TabFrgmAdapter，将TabSelectView、TabFrgmAdapter、ViewPager三者关联起来使用
 UI满足不了的情况，参照TabSelectView创建BindPagerAdapterView子类即可。
 设置OnPageChangeListener与调用setCurrentItem时，需使用BindPagerAdapterView（即TabSelectView）来设置调用相应方法。
