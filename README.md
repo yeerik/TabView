@@ -77,6 +77,31 @@ public class MainActivity extends FragmentActivity {
         });
 
         mTabsView.setCurrentItem(0);
+        
+        mTabsView.setOnItemClickListener(new OnItemClickListener() {
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                switch (position) {
+                    case 0:
+                       
+                        break;
+                    case 1:
+                       
+                        break;
+                    case 2:
+                       
+                        break;
+                    case 3:
+                       
+                        break;
+
+                    default:
+                        break;
+                }
+
+            }
+        });
     }
 
 }
